@@ -2,11 +2,11 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'How the Internet Works.'
 pubDate: 10-30-2023
-description: ''
+description: 'The internet is your friend...'
 author: 'Bek Johansson'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
-    alt: 'The full Astro logo.'
+    url: 'https://images.pexels.com/photos/697244/pexels-photo-697244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    alt: 'group of friends'
 tags: ["programming", "blogging", "learning in public", "technology"]
 ---
 **Client-Side and Server-Side Computers**

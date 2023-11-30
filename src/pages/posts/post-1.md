@@ -5,11 +5,12 @@ pubDate: 10-24-2023
 description: 'My struggle with tutorial hell.'
 author: 'Bek Johansson'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
-    alt: 'The full Astro logo.'
+    url: 'https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    alt: 'Female hand writing todo list in planner'
 tags: ["programming", "blogging", "learning in public", "technology"]
 
 ---
+
 
 When we embark on the journey of coding, there's an unmistakable thrill that we all share when we witness something materialize on our screens or terminals for the very first time. That sensation of almost god-like power, when we command a machine to do our bidding, is something we've all felt.
 
@@ -32,3 +33,4 @@ I came to the realization that I didn't need to start from scratch all over agai
 So, if you find yourself ensnared in 'tutorial hell,' take a pause and start building something. Utilize the research skills you've acquired and combine them with thorough documentation reading to create something substantial. Once you do that, you'll fully appreciate how powerful that 'god mode' feeling can be, as it becomes more intense with each achievement.
 
 I extend my heartfelt gratitude to my friends on X, who helped me realize the importance of promptly applying the concepts I learned to solidify the knowledge I had acquired. Without the incredible TechX community, formerly known as TechTwitter, I might still be blissfully ignorant in the clutches of 'tutorial hell.'
+

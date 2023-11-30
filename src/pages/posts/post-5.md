@@ -5,8 +5,8 @@ pubDate: 10-30-2023
 description: 'Tips on understanding jargon.'
 author: 'Bek Johansson'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
-    alt: 'The full Astro logo.'
+    url: 'https://images.pexels.com/photos/278887/pexels-photo-278887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    alt: 'Pill of scrabble tiles.'
 tags: ["programming", "blogging", "learning in public", "technology"]
 ---
 

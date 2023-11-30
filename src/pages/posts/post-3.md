@@ -1,12 +1,12 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Demystifying APIs: A Grand Central Station Metaphor'
+title: 'Demystifying APIs'
 pubDate: 10-30-2023
 description: 'Finally understanding what an  API is!'
 author: 'Bek Johansson'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
-    alt: 'The full Astro logo.'
+    url: 'https://images.pexels.com/photos/4451520/pexels-photo-4451520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    alt: 'Busy Grand Central Station'
 tags: ["programming", "blogging", "learning in public", "technology"]
 ---
 

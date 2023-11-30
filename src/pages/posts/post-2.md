@@ -5,8 +5,8 @@ pubDate: 11-25-2023
 description: 'How I grew so fast on X-Twitter. '
 author: 'Bek Johansson'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
-    alt: 'The full Astro logo.'
+    url: 'https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?w=826&t=st=1701366364~exp=1701366964~hmac=9704d710a969bad355801390ceca596658cc2aaca6bdff42b417bd3e4aae69e3'
+    alt: 'X logo'
 tags: ["programming", "blogging", "learning in public", "technology"]
 ---
 

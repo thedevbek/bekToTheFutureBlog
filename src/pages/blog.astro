@@ -1,0 +1,19 @@
+---
+import BlogPost from '../components/BlogPost.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/global.css';
+const pageTitle = "Blog";
+const allPosts = await Astro.glob('../pages/posts/*.md');
+---
+<BaseLayout >
+  <h1 class="text-5xl font-lobster mb-10">{pageTitle}</h1>
+    <p class="subtitle text-2xl  ">
+      A blog about my journey from facing challenges to embracing opportunities, and working towards my dream of becoming a Software Engineer.
+    </p>
+    <ul class="mb-4">
+
+      {allPosts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title} />)}
+
+    </ul>
+</BaseLayout>
+

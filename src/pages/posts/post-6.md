@@ -5,8 +5,8 @@ pubDate: 10-01-2023
 description: 'Step by Step Guide'
 author: 'Bek Johansson'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
-    alt: 'The full Astro logo.'
+    url: 'https://images.pexels.com/photos/327483/pexels-photo-327483.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    alt: 'Stepping stone to a house.'
 tags: ["programming", "blogging", "learning in public", "technology"]
 ---
 

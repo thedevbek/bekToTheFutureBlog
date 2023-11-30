@@ -5,8 +5,8 @@ pubDate: 10-01-2023
 description: 'How I began to healing. '
 author: 'Bek Johansson'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
-    alt: 'The full Astro logo.'
+    url: 'https://images.unsplash.com/photo-1504701954957-2010ec3bcec1?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+    alt: 'Shadow of a person trying to get of to somewhere'
 tags: ["programming", "blogging", "learning in public", "technology", "self-care"]
 ---
 
