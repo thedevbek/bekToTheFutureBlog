@@ -12,6 +12,12 @@ const username = "thedevbek";
         </a>
       </span>
         <p> -Twitter for the latest shenanigans!</p>
+        <p>
+          <small style="margin-left: 10px;">Copyright &copy; <span id="copyright"></span> | All rights reserved</small>
+        </p>
+        <script>
+          document.querySelector("#copyright").textContent = new Date().getFullYear().toString();
+        </script>
     </footer>
 
   
