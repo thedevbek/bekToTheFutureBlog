@@ -4,12 +4,11 @@ import '../styles/global.css';
 const pageTitle = "About Me";
 ---
 
-    <BaseLayout>
-      <div class="flex items-center justify-start mt-8">
-        <img src="/images/bek.png" alt="profile image" class=" transform -rotate-[10deg] ml-24 w-32 h-32 rounded-lg" />
-      </div>
-      <div class="md:ml-64 max-w-[400px] md:inline-block">
-        <h1 class="text-4xl mt-10 font-bold">{pageTitle}</h1>
+<BaseLayout>
+  <div class="flex gap-12 mt-10">
+    <img src="/images/bek.png" alt="profile image" class=" transform -rotate-[8deg] ml-24 w-32 h-32 rounded-lg mt-24 shadow-2xl" />
+  <div class="max-w-[400px]">
+    <h1 class="text-4xl font-bold">{pageTitle}</h1>
         <p>
             Hello, lovely readers! My name is Bek, and I'm thrilled to welcome you to my corner of the internet. After two decades on Social Security Disability, life has taken a turn, and I'm excited to share my incredible journey with you.
           </p>
@@ -43,6 +42,6 @@ const pageTitle = "About Me";
             Thank you for joining me on this exciting journey. Together, let's make 2024 a year of growth, learning, and, most importantly, chasing dreams. Stay tuned for more updates, and remember—your dreams are worth the
             chase!
           </p>
-      
+        </div>
       </div>
     </BaseLayout>   
