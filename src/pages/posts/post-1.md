@@ -5,7 +5,7 @@ pubDate: 10-24-2023
 description: 'My struggle with tutorial hell.'
 author: 'Bek Johansson'
 image:
-    url: 'https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    url: '/images/post-1.jpg'
     alt: 'Female hand writing todo list in planner'
 tags: ["programming", "blogging", "learning in public", "technology"]
 

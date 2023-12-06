@@ -1,7 +1,22 @@
 ---
+
 ---
-<div class="nav-links">
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/blog">Blog</a>
-  </div>
+<nav>
+  <a href="/" class="{{ currentPage === '/' ? 'bg-teal-500 ' : 'hover:bg-teal-100 text-teal-500' }} hover:rounded-full hover:p-2">Home</a>
+
+  <a href="/about" class="{{ currentPage === '/about' ? 'bg-teal-500 ' : 'hover:bg-teal-100 text-teal-500' }} hover:rounded-full hover:p-2">About</a>
+
+  <a href="/blog" class="{{ currentPage === '/blog' ? 'bg-teal-500 ' : 'hover:bg-teal-100 text-teal-500' }} hover:rounded-full hover:p-2">Blog</a>
+</nav>
+
+
+<script>
+  const getCurrentPage = () => {
+    const path = window.location.pathname;
+    console.log('Current Page:', path);
+    return path;
+  };
+
+  const currentPage = getCurrentPage();
+</script>
+
