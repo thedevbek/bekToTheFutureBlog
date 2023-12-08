@@ -1,22 +1,20 @@
 ---
 
 ---
-<nav>
-  <a href="/" class="{{ currentPage === '/' ? 'bg-teal-500 ' : 'hover:bg-teal-100 text-teal-500' }} hover:rounded-full hover:p-2">Home</a>
-
-  <a href="/about" class="{{ currentPage === '/about' ? 'bg-teal-500 ' : 'hover:bg-teal-100 text-teal-500' }} hover:rounded-full hover:p-2">About</a>
-
-  <a href="/blog" class="{{ currentPage === '/blog' ? 'bg-teal-500 ' : 'hover:bg-teal-100 text-teal-500' }} hover:rounded-full hover:p-2">Blog</a>
+<div class="navbar">
+  <a href="/" >Home</a>
+  <a href="/about"  >About</a>
+  <a href="/blog" >Blog</a>
 </nav>
 
-
 <script>
-  const getCurrentPage = () => {
-    const path = window.location.pathname;
-    console.log('Current Page:', path);
-    return path;
-  };
-
-  const currentPage = getCurrentPage();
+  const nav = document.querySelector(".navbar");
+  const navLinks = nav.querySelectorAll("a");
+  const currentURL = window.location.href;
+  navLinks.forEach((link) => {
+    if (link.href === currentURL) {
+      link.classList.add("active");
+    }
+  });
 </script>
 

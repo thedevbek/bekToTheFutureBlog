@@ -26,17 +26,37 @@ body {
   transform: scale(0.7); 
 }
 
+
+/* NavBar */
+
+.navbar {
+  margin: auto;
+  margin-bottom: 1.5rem;
+  text-align: center;
+ 
+
+}
+
+.navbar a.active {
+  background-color: #004f69;
+  padding: 10px 20px; 
+  display: inline-block; 
+  text-align: center; 
+  border-radius: 50px; 
+  color: #fbf2ea;
+}
+
 /* Main Styling */
 h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
-  color:#004f69
+  color:#004f69;
 }
 
 .subtitle {
   margin: 1rem 0;
   font-size: 1.5rem;
-  color:#004f69
+  color:#004f69;
 }
 
 
