@@ -1,9 +1,21 @@
+// import Astro from 'astro';
 
-  const nav = document.querySelector(".navbar");
-  const navLinks = nav.querySelectorAll("a");
-  const currentURL = window.location.href;
-  navLinks.forEach((link) => {
-    if (link.href === currentURL) {
-      link.classList.add("active");
-    }
-  });
+// const observer = new IntersectionObserver(entries => {
+//   entries.forEach(entry => {
+//     if (entry.isIntersecting) {
+//       console.log('Current URL: ', Astro.request.url);
+//       const navLinks = document.querySelectorAll(".navbar a");
+//       const currentURL = Astro.request.url; // Use Astro's request.url
+//       navLinks.forEach(link => {
+//         if (link.href === currentURL) {
+//           link.classList.add("active");
+//         } else {
+//           link.classList.remove("active");
+//         }
+//       });
+//     }
+//   });
+// }, { root: null, rootMargin: "0px 0px 0px 0px", threshold: 0.5 });
+
+// const navLinks = document.querySelectorAll(".navbar a");
+// navLinks.forEach(link => observer.observe(link));

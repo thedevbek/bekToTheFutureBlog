@@ -27,30 +27,23 @@ body {
 }
 
 
-/* NavBar */
+/* Nav */
 
-.navbar {
-  margin: auto;
-  margin-bottom: 1.5rem;
+
+nav a {
+  text-decoration: none;
+  padding: 5px 20px; 
+  margin: 0 10px;
+  color: #242423; 
+  display: inline-block;
   text-align: center;
-  gap: 3;
-
-}
-
-.navbar a {
-  margin-right: 20px; /* Adjust the margin as needed */
-}
-
-.navbar a.active {
-  background-color: #004f69;
-  padding: 10px 20px; 
-  display: inline-block; 
-  text-align: center; 
   border-radius: 50px; 
+}
+
+nav a.active {
+  background-color: #004f69;
   color: #fbf2ea;
 }
-
-
 
 /* Main Styling */
 h1 {
