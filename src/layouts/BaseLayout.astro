@@ -2,7 +2,7 @@
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import '../styles/global.css';
-import { ViewTransitions } from 'astro:transitions';
+// import { ViewTransitions } from 'astro:transitions';
 const { pageTitle } = Astro.props;
 ---
 
@@ -23,11 +23,11 @@ const { pageTitle } = Astro.props;
   <body class="flex  min-h-screen">
     <Header />
     <h1 class="font-lobster text-7xl ">{pageTitle}</h1>
-  
     <div class="flex-1">
     <slot />
     </div>
-
     <Footer />
+
+    <script src="src/scripts/nav.js"></script>
   </body>
 </html>
