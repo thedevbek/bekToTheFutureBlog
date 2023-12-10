@@ -5,7 +5,7 @@ pubDate: 10-30-2023
 description: 'Finally understanding what an  API is!'
 author: 'Bek Johansson'
 image:
-    url: 'https://images.pexels.com/photos/4451520/pexels-photo-4451520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    url: '/images/post-3.jpg'
     alt: 'Busy Grand Central Station'
 tags: ["programming", "blogging", "learning in public", "technology"]
 ---

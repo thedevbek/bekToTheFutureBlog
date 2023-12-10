@@ -5,7 +5,7 @@ pubDate: 10-30-2023
 description: 'The internet is your friend...'
 author: 'Bek Johansson'
 image:
-    url: 'https://images.pexels.com/photos/697244/pexels-photo-697244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    url: '/images/post-4.jpg'
     alt: 'group of friends'
 tags: ["programming", "blogging", "learning in public", "technology"]
 ---

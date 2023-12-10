@@ -1,11 +1,11 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Growing on X-Twitter: Embracing Authenticity, Kindness, and Connection'
+title: 'Embracing Authenticity, Kindness, and Connection'
 pubDate: 11-25-2023
 description: 'How I grew so fast on X-Twitter. '
 author: 'Bek Johansson'
 image:
-    url: 'https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?w=826&t=st=1701366364~exp=1701366964~hmac=9704d710a969bad355801390ceca596658cc2aaca6bdff42b417bd3e4aae69e3'
+    url: '/images/post-2.jpg'
     alt: 'X logo'
 tags: ["programming", "blogging", "learning in public", "technology"]
 ---
