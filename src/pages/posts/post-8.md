@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Bek to the Future: A Coding Adventure Begins!'
 pubDate: 10-11-2023
-description: 'Musing from my first deployed site.'
+description: 'Musings from my first deployed site.'
 author: 'Bek Johansson'
 image:
     url: '/images/post-8.jpg'
