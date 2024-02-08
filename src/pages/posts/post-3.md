@@ -30,15 +30,15 @@ Sharing my story is an attempt to help others realize that occasional self-doubt
 
 I'll start with five tips I learned from a video by Barbara Heffernan, LCSW. One of them I already practice without issues.
 
-1. Look at the evidence and keep an evidence file: Write down undeniable achievements like good grades or praise from your boss.
+* Look at the evidence and keep an evidence file: Write down undeniable achievements like good grades or praise from your boss.
 
-2. Take a compliment seriously: Avoid deflecting compliments with jokes. Acknowledge and appreciate them.
+* Take a compliment seriously: Avoid deflecting compliments with jokes. Acknowledge and appreciate them.
 
-3. Practice saying 'I don't know': Embrace the admission of not knowing; it's okay. Ask questions to understand better.
+* Practice saying 'I don't know': Embrace the admission of not knowing; it's okay. Ask questions to understand better.
 
-4. Acknowledge that you are comparing your inside to others' outside: We can't read minds, and others might feel the same way. Don't compare yourself, as everyone wears a mask.
+* Acknowledge that you are comparing your inside to others' outside: We can't read minds, and others might feel the same way. Don't compare yourself, as everyone wears a mask.
 
-5. Calm yourself down in the moment: Try techniques like diaphragmatic breathing. It surprised me how effective it was when I tried it while writing this post.
+* Calm yourself down in the moment: Try techniques like diaphragmatic breathing. It surprised me how effective it was when I tried it while writing this post.
 
 I hope my story helps you realize that what might be going on with you or a friend happens to many people. These tips are a starting point, but seeking professional help or talking to a friend is crucial. Give yourself grace and become your own cheerleader.
 
