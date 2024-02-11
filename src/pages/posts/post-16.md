@@ -1,13 +1,13 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'The Power of Asking Questions'
-pubDate: 02-10-2024
-description: 'Explain the power in asking questions. '
+title: 'Reevaluating Fat Positivity: A Personal Journey'
+pubDate: 02-11-2024
+description: 'My life long struggle with weight'
 author: 'Bek Johansson'
 image:
-    url: '/images/post-15.jpg'
-    alt: 'Keyboard showing the semi-colon key. '
-tags: ["programming", "blogging", "learning in public", "technology"]
+    url: '/images/post-16.jpg'
+    alt: 'Picture of author when they were five years old '
+tags: ["personal ", "blogging", "journal", "journey"]
 ---
 
 The fat positivity movement is garnering attention, but I’m concerned it might be detrimental to the health of our children. Now, before you label me as fatphobic, hear me out. I speak from experience. Being obese or overweight isn’t healthy, period. While the movement preaches self-acceptance, my own journey tells a different story. At 52, I find myself reliant on a wheelchair to leave my house due to excruciating pain that prohibits walking far distances. How did I reach this point? It’s been a lifelong struggle. As a child, I was already 110 pounds at 7 years old, hitting 252 pounds by age 12, and a staggering 506 pounds at my heaviest. Even after shedding some weight, I still hover between 370 to 400 pounds. My firsthand experience leads me to assert that the fat positivity movement might be causing more harm than good, especially for our children. It’s simply not true that you can be healthy at any weight.
