@@ -5,7 +5,7 @@ pubDate: 02-11-2024
 description: 'My life long struggle with weight'
 author: 'Bek Johansson'
 image:
-    url: '/images/post-16.jpg'
+    url: '/images/post-16.jpeg'
     alt: 'Picture of author when they were five years old'
 tags: ["personal", "blogging", "journal", "journey"]
 ---
