@@ -1,13 +1,13 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'The Power of Asking Questions'
-pubDate: 02-08-2024
-description: 'Explain the power in asking questions. '
+title: 'Reevaluating Fat Positivity: A Personal Journey'
+pubDate: 02-1-2024
+description: 'My life long struggle with weight'
 author: 'Bek Johansson'
 image:
-    url: '/images/post-15.jpg'
-    alt: 'Keyboard showing the semi-colon key. '
-tags: ["programming", "blogging", "learning in public", "technology"]
+    url: '/images/post-16.jpg'
+    alt: 'Picture of author when they were five years old '
+tags: ["personal ", "blogging", "journal", "journey"]
 ---
 
 Sitting in a packed classroom, the professor races through the material, assuming everyone’s on the same page. Confusion paints the faces around me, but I don’t notice; I’m too busy breaking the silence, asking clarifying questions loudly. I’m not afraid to admit I don’t know everything. That’s who I am — I’ll ask questions and strive to understand the material, even if it means asking someone to explain it in different ways.
