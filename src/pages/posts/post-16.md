@@ -28,4 +28,4 @@ May we always strive to be the best version of ourselves.
 
 Reference:
 
-Avena, N. M., Rada, P., & Hoebel, B. G. (2008). Evidence for sugar addiction: Behavioral and neurochemical effects of intermittent, excessive sugar intake. Neuroscience and biobehavioral reviews. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2235907/
+Avena, N. M., Rada, P., & Hoebel, B. G. (2008). Evidence for sugar addiction: Behavioral and neurochemical effects of intermittent, excessive sugar intake. Neuroscience and biobehavioral reviews. <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2235907/>
