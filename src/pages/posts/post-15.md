@@ -6,7 +6,7 @@ description: 'Explaining the power in asking questions.'
 author: 'Bek Johansson'
 image:
     url: '/images/post-15.jpg'
-    alt: 'a dog raising it's paw '
+    alt: 'a dog raising it's paw'
 tags: ["programming", "blogging", "learning in public", "technology"]
 ---
 
