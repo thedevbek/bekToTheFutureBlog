@@ -5,7 +5,7 @@ pubDate: 02-1-2024
 description: 'Explaining the power in asking questions.'
 author: 'Bek Johansson'
 image:
-    url: '/images/post-15.jpg'
+    url: '/images/post-15.jpeg'
     alt: 'a dog raising paw'
 tags: ["programming", "blogging", "learning in public", "technology"]
 ---
