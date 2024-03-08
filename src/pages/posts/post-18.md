@@ -14,7 +14,7 @@ The first step in mastering Data Structures and Algorithms (DSA) involves graspi
 
 Now, why do we need organized data? As software developers, our goal is to create clean, maintainable, and efficient code. This is where organized data becomes essential, as it significantly impacts the speed of your code.
 
-As evident from the code image provide, it’s clean and maintainable. But which version is faster? If you picked version two, you’re correct. Version one loops through the loop 10 times compared to the five times that version two loops through.
+As evident from the code image provided, it’s clean and maintainable. But which version is faster? If you picked version two, you’re correct. Version one loops through the loop 10 times compared to the five times that version two loops through.
 
 Realizing that to obtain an even number, you need to increment by two (number += 2;) makes the array faster. Imagine how much quicker it would be with an array of 1000. Version two would only run 500 times, making it twice as fast as version one. This underscores the importance of organized data.
 
