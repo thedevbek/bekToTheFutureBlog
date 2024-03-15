@@ -1,19 +1,54 @@
 ---
-
-import BaseLayout from '../layouts/BaseLayout.astro';
-import '../styles/global.css';
+import BaseLayout from "../layouts/BaseLayout.astro";
+import "../styles/global.css";
 const pageTitle = "Contact Me";
-
 ---
 
 <BaseLayout>
-    
-
     <section>
         <div>
-            <h1 class="text-5xl font-lobster mb-10">{pageTitle}</h1>
+            <form
+                target="_blank"
+                action="https://formsubmit.co/bektoothefuture.com"
+                method="POST"
+            >
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col">
+                            <input
+                                type="text"
+                                name="name"
+                                class="form-control"
+                                placeholder="Enter name"
+                                required
+                            />
+                        </div>
+                        <div class="col">
+                            <input
+                                type="email"
+                                name="email"
+                                class="form-control"
+                                placeholder="Email Address"
+                                required
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea
+                        placeholder="Your Message"
+                        class="form-control"
+                        name="message"
+                        rows="10"
+                        required></textarea>
+                </div>
+                <button type="submit" class="btn btn-lg btn-dark btn-block"
+                    >Submit Form</button
+                >
+            </form>
+            <!-- <h1 class="text-5xl font-lobster mb-10">{pageTitle}</h1>
             
-            <form action="https://formsubmit.co/bektoothefuture@gmail.com" method="POST" class="space-y-8">
+            <form target="_blank"  action="https://formsubmit.co/bektoothefuture@gmail.com" method="POST" class="space-y-8">
                  <div>
                     <label for="subject" class="block mb-2 text-sm font-bold text-gray-900">Name</label>
                     <input type="text" name="name" class="block p-3 w-full text-sm  bg-sky-900 rounded-lg border border-gray-300 text-sky-100  shadow-sm focus:ring-primary-500 focus:border-primary-500 " placeholder="Who are you?" required>
@@ -27,8 +62,7 @@ const pageTitle = "Contact Me";
                     <textarea id="message" name="message" rows="6" class="block p-2.5 w-full text-sm text-sky-100 bg-sky-900 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 " placeholder="Write your message here..."></textarea>
                 </div>
                 <button type="submit" class="py-3 px-5 text-sm font-bold text-center text-gray-300 rounded-lg bg-sky-800 sm:w-fit hover:bg-orange-800 focus:ring-4 focus:outline-none focus:ring-orange-300">Send</button>
-            </form>
+            </form> -->
         </div>
-      </section>
+    </section>
 </BaseLayout>
-
