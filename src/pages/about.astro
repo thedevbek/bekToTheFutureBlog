@@ -1,13 +1,14 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import "../styles/global.css";
+import profileImage from "../public/bek.png";
 const pageTitle = "About Me";
 ---
 
 <BaseLayout>
     <div class="md:flex gap-12 mt-10">
         <img
-            src="../public/bek.png"
+            src="/bek.png"
             alt="profile image"
             class="transform -rotate-[8deg] md:ml-24 w-32 h-32 rounded-lg mt-24 shadow-2xl"
         />
@@ -33,6 +34,4 @@ const pageTitle = "About Me";
             </p>
         </div>
     </div>
-
-    
 </BaseLayout>
