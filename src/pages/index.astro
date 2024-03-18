@@ -1,27 +1,45 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import '../styles/global.css';
-const pageTitle = 'Bek to the Future';
+pageTitle: "Home";
+import BaseLayoutWithoutNavAndFooter from "../layouts/BaseLayoutWithoutNavAndFooter.astro";
+import "../styles/global.css";
 ---
 
-<BaseLayout pageTitle={pageTitle}>
-	<div
-		style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh;"
-	>
-		<div>
-			<h2 class="subtitle">The Future awaits ...</h2>
-		</div>
-		<div style="position: relative;">
-			<img
-				src="https://res.cloudinary.com/dthlauufo/image/upload/v1701368796/bttf_logo_lm7rcu.jpg"
-				alt="Back to the Future logo image"
-				style="width: 100%;"
-			/>
-			<div
-				style="position: absolute; bottom: 0; right: 0; background: rgba(255, 255, 255, 0.3); padding: 10px;"
-			>
-				<p class="subtitle">... but you can't see it yet.</p>
-			</div>
-		</div>
-	</div>
-</BaseLayout>
+<BaseLayoutWithoutNavAndFooter>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Custom styles */
+        .background-image {
+            background-image: url("/delorean_logo.png");
+            background-size: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* Hide navigation */
+        .navbar {
+            display: none;
+        }
+    </style>
+
+    <!-- Container for the content -->
+    <div class="background-image">
+        <div class="text-center pt-8"></div>
+        <div class="text-center pb-8">
+            <h1 class="text-white text-4xl font-bold">Hop on into...</h1>
+            <a
+                href="/blog"
+                class="px-4 py-4 bg-[rgb(210,144,162)] font-bold uppercase text-white rounded-md hover:bg-blue-600 hover:text-[rgb(210,144,162)]"
+                >the future awaits!</a
+            >
+        </div>
+    </div>
+</BaseLayoutWithoutNavAndFooter>

@@ -1,23 +1,24 @@
 ---
-const platform = "X";
-const username = "thedevbek";
+const platform = 'X';
+const username = 'thedevbek';
 ---
 
-
-    <footer >
-      <p>Follow me on</p>
-    <span>
-        <a href={`https://www.${platform}.com/${username}`} target="_blank">
-          <img src="/images/x-logo.svg" alt="X logo" class="h-5 w-5" />
-        </a>
-      </span>
-        <p> -Twitter for the latest shenanigans!</p>
-        <p>
-          <small style="margin-left: 10px;">Copyright &copy; <span id="copyright"></span> | All rights reserved</small>
-        </p>
-        <script>
-          document.querySelector("#copyright").textContent = new Date().getFullYear().toString();
-        </script>
-    </footer>
-
-  
+<footer>
+	<p>Follow me on</p>
+	<span>
+		<a href={`https://www.${platform}.com/${username}`} target="_blank">
+			<img src="/x-logo.svg" alt="X logo" class="h-5 w-5" />
+		</a>
+	</span>
+	<p>-Twitter for the latest shenanigans!</p>
+	<p>
+		<small style="margin-left: 10px;"
+			>Copyright &copy; <span id="copyright"></span> | All rights reserved</small
+		>
+	</p>
+	<script>
+		document.querySelector('#copyright').textContent = new Date()
+			.getFullYear()
+			.toString();
+	</script>
+</footer>

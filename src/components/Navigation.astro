@@ -1,53 +1,38 @@
-<style>
-	.navbar a {
-		text-decoration: none;
-		padding: 5px 20px;
-		color: #242423;
-		display: inline-block;
-		text-align: center;
-		border-radius: 50px;
-	}
+---
 
-	.navbar a.active {
-		background-color: #004f69;
-		color: #fbf2ea;
-	}
+---
 
-	.navbar {
-		display: flex;
-		justify-content: space-between;
-	}
+<nav class="navbar flex items-center justify-between px-4 py-2">
+    <!-- Left links -->
+    <div class="flex space-x-4">
+        <a href="/" class="text-black hover:text-pink-600">Home</a>
+        <a href="/blog/" class="text-black hover:text-pink-600">Articles</a>
+        <a href="/about/" class="text-black hover:text-pink-600">About</a>
+        <a href="/contact/" class="text-black hover:text-pink-600">Contact</a>
+    </div>
 
-	.buymeacoffee {
-		margin-left: auto;
-	}
-</style>
-
-<nav class="navbar">
-	<a href="/">Home</a>
-	<a href="/blog/">Blog</a>
-	<a href="/about/">About</a>
-	<a href="/contact/">Contact</a>
-	<a
-		href="https://www.buymeacoffee.com/bektothefuture"
-		target="_blank"
-		class="buymeacoffee"
-		><img
-			src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png"
-			alt="Buy Me A Coffee"
-			style="height: 60px !important;width: 217px !important;"
-		/></a
-	>
+    <!-- Right button -->
+    <a
+        href="https://www.buymeacoffee.com/bektothefuture"
+        target="_blank"
+        class="buymeacoffee"
+    >
+        <img
+            src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png"
+            alt="Buy Me A Coffee"
+            style="height: 60px !important; width: 217px !important;"
+        />
+    </a>
 </nav>
 
 <!--Set active class on nav when the page is active -->
 <script>
-	const nav = document.querySelector('.navbar');
-	const navLinks = nav.querySelectorAll('a');
-	const currentURL = window.location.href;
-	navLinks.forEach((link) => {
-		if (link.href === currentURL) {
-			link.classList.add('active');
-		}
-	});
+    const nav = document.querySelector(".navbar");
+    const navLinks = nav.querySelectorAll("a");
+    const currentURL = window.location.href;
+    navLinks.forEach((link) => {
+        if (link.href === currentURL) {
+            link.classList.add("active");
+        }
+    });
 </script>
