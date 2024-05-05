@@ -4,18 +4,20 @@ const username = 'thedevbek';
 ---
 
 <footer>
+	<div>
 	<p>Follow me on</p>
-	<span>
+	<span class="flex justify-center items-center">
 		<a href={`https://www.${platform}.com/${username}`} target="_blank">
-			<img src="/x-logo.svg" alt="X logo" class="h-5 w-5" />
+			<img src="/x-logo.svg" alt="X logo" class="h-5 w-10" />
 		</a>
 	</span>
-	<p>-Twitter for the latest shenanigans!</p>
-	<p>
+	
+	<p>- for the latest shenanigans!</p>
+
 		<small style="margin-left: 10px;"
 			>Copyright &copy; <span id="copyright"></span> | All rights reserved</small
 		>
-	</p>
+	</div>
 	<script>
 		document.querySelector('#copyright').textContent = new Date()
 			.getFullYear()
