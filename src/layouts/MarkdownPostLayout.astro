@@ -3,11 +3,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import '../styles/global.css';
 const { frontmatter } = Astro.props;
 ---
-<BaseLayout >
- <p><strong>{frontmatter.title}</strong></p>   
-<p>{frontmatter.pubDate.slice(0,10)}</p>
-<p><em>{frontmatter.description}</em></p>
-<p class="mb-5">Written by: {frontmatter.author}</p>
-<img src={frontmatter.image.url} alt={frontmatter.image.alt} />
-<slot />
+<BaseLayout class="flex justify-center items-center h-screen">
+  <div class="max-w-lg p-4">
+    <p><strong>{frontmatter.title}</strong></p>
+    <p>{frontmatter.pubDate.slice(0, 10)}</p>
+    <p><em>{frontmatter.description}</em></p>
+    <p class="mb-5">Written by: {frontmatter.author}</p>
+    <img src={frontmatter.image.url} alt={frontmatter.image.alt} class="w-full object-contain" />
+    <slot />
+  </div>
 </BaseLayout>
+
