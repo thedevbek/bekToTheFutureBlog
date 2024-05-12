@@ -15,7 +15,7 @@ body {
 	background-color: rgba(210, 133, 152, 0.3)
 	;
 	width: 100%;
-	max-width: 80ch;
+	/* max-width: 80ch; */
 	padding: 1rem;
 	font-size: 1.5rem;
 	line-height: 1.5;
