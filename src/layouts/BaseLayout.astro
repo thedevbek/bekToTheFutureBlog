@@ -23,14 +23,15 @@ const { pageTitle } = Astro.props;
     />
     <title>{pageTitle}</title>
 </head>
-<body class="flex  min-h-screen">
+<body class="flex min-h-screen">
     <Header />
-    <h1 class="font-lobster text-7xl ">{pageTitle}</h1>
-    <div class="flex-1">
+    <h1 >{pageTitle}</h1>
+    <div class="flex-1 mt-10">
     <slot />
     </div>
     <Footer />
 
+    <script src="../scripts/menu.js" ></script>
 
 </body>
 </html>

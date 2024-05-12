@@ -4,23 +4,34 @@ const username = 'thedevbek';
 ---
 
 <footer>
-	<div>
-	<p>Follow me on</p>
-	<span class="flex justify-center items-center">
-		<a href={`https://www.${platform}.com/${username}`} target="_blank">
-			<img src="/x-logo.svg" alt="X logo" class="h-5 w-10" />
-		</a>
-	</span>
-	
-	<p>- for the latest shenanigans!</p>
-
-		<small style="margin-left: 10px;"
-			>Copyright &copy; <span id="copyright"></span> | All rights reserved</small
-		>
-	</div>
-	<script>
-		document.querySelector('#copyright').textContent = new Date()
-			.getFullYear()
-			.toString();
-	</script>
+    <div>
+        <p>Follow me on</p>
+        <span class="flex justify-center items-center">
+            <a href={`https://www.${platform}.com/${username}`} target="_blank">
+                <img src="/x-logo.svg" alt="X logo" class="h-5 w-10" />
+            </a>
+        </span>
+        <p>- for the latest shenanigans!</p>
+        <p class="mt-2">Or email me <a href="mailto:bektothefuture@icloud.com" class="email-link">here</a></p>
+        <small style="margin-left: 10px;">
+            Copyright &copy; <span id="copyright"></span> | All rights reserved
+        </small>
+    </div>
+    <script>
+        document.querySelector('#copyright').textContent = new Date().getFullYear().toString();
+    </script>
 </footer>
+
+<style>
+    .email-link {
+        text-decoration: underline;
+        color: #FF69B4; 
+        cursor: pointer; 
+    }
+
+    /* Adjust link behavior on hover */
+    .email-link:hover {
+        text-decoration: underline; 
+        color: #003b75;
+    }
+</style>

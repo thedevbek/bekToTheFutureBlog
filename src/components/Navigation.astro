@@ -2,41 +2,25 @@
 
 ---
 
-<nav class="navbar flex items-center justify-between px-4 py-2">
+<nav class="nav-links">
     <!-- Left links -->
-    <div class="flex space-x-4">
-        <a href="/" class="text-black hover:text-pink-600">Home</a>
-        <a href="/blog/" class="text-black hover:text-pink-600">Articles</a>
-        <a href="/about/" class="text-black hover:text-pink-600">About</a>
-        <a href="/contact/" class="text-black hover:text-pink-600">Contact</a>
+    <div class="left-links">
+       
+        <a href="/blog/">Blog</a>
+        <a href="/about/">About</a>
     </div>
-
     <!-- Right button -->
-    <a
+    <a class="buymeacoffee"
         href="https://www.buymeacoffee.com/bektothefuture"
         target="_blank"
-        class="buymeacoffee"
+        
     >
         <img
+            class="img-buymeacoffee"
             src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png"
             alt="Buy Me A Coffee"
-            style="height: 60px !important; width: 217px !important;"
         />
     </a>
+
 </nav>
 
-<!--Set active class on nav when the page is active -->
-<script>
-    const nav = document.querySelector(".navbar");
-    const navLinks = nav.querySelectorAll("a");
-    const currentURL = window.location.href;
-    navLinks.forEach((link) => {
-        if (link.href === currentURL) {
-            link.classList.add("text-pink-600"); // Add text-pink-600 class
-            link.classList.add("active"); // Optionally add an 'active' class
-        } else {
-            // Remove text-pink-600 class from other links (if previously set)
-            link.classList.remove("text-pink-600");
-        }
-    });
-</script>

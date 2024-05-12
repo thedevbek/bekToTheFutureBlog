@@ -1,19 +1,19 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import "../styles/global.css";
-import profileImage from "../public/bek.png";
 const pageTitle = "About Me";
 ---
 
 <BaseLayout>
+    <div id="top"></div>
     <div class="md:flex gap-12 mt-10">
         <img
             src="/bek.png"
             alt="profile image"
             class="transform -rotate-[8deg] md:ml-24 w-32 h-32 rounded-lg mt-24 shadow-2xl"
         />
-        <div class="max-w-[400px]">
-            <h1 class="text-5xl font-lobster mb-10">{pageTitle}</h1>
+        <div class="max-w-[600px]">
+            <h1 class="text-4xl text-[#003b75] font-lobster mb-5 mt-5 ">{pageTitle}</h1>
             <p>
                 After 33 years, I finally earned my Bachelor's degree, and now
                 I'm embarking on a new adventure – pursuing my Master's in
@@ -21,17 +21,24 @@ const pageTitle = "About Me";
                 offering personal stories, coding accomplishments, and glimpses
                 into the ever-evolving tech landscape.
             </p>
+            <br/>
             <p>
                 Through sharing my experiences, I hope to inspire others facing
                 obstacles, demonstrating that with unwavering determination,
                 anyone can make their dreams a reality.
             </p>
+            <br/>
             <p>
-                Thank you for joining me on this path. Let's make 2024 a year of
+                Thank you for joining me on this path. Let's make this year of
                 growth, learning, and, above all, relentlessly chasing our
-                dreams. Stay tuned for updates – your aspirations are worth the
-                pursuit!
+                dreams. 
             </p>
+            <br/>
+            <p> Your aspirations are worth the
+                pursuit!</p>
         </div>
     </div>
+    <a href="#top" class="block text-center  text-[#003b75] hover:underline hover:text-[#FF69B4] mt-16">
+        Return to Top
+    </a>
 </BaseLayout>
