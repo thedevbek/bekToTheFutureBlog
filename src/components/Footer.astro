@@ -5,14 +5,14 @@ const username = 'thedevbek';
 
 <footer>
     <div>
-        <p>Follow me on</p>
+        <small>Follow me on
         <span class="flex justify-center items-center">
             <a href={`https://www.${platform}.com/${username}`} target="_blank">
                 <img src="/x-logo.svg" alt="X logo" class="h-5 w-10" />
             </a>
         </span>
-        <p>- for the latest shenanigans!</p>
-        <p class="mt-2">Or email me <a href="mailto:bektothefuture@icloud.com" class="email-link">here</a></p>
+       </small>
+        <small class="mt-2">Or email me <a href="mailto:bektothefuture@icloud.com" class="email-link">here</a></small>
         <small style="margin-left: 10px;">
             Copyright &copy; <span id="copyright"></span> | All rights reserved
         </small>
@@ -21,6 +21,10 @@ const username = 'thedevbek';
         document.querySelector('#copyright').textContent = new Date().getFullYear().toString();
     </script>
 </footer>
+
+
+
+
 
 <style>
     .email-link {
